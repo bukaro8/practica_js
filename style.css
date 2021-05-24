@@ -1,0 +1,29 @@
+#box{
+  width: 100px;
+  height: 100px;
+  
+}
+.red{
+  background-color:red;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.gallery{
+  margin-block-start: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  cursor: pointer;
+  gap:10px;
+}
+.gallery__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid black;
+  height: 50px;
+
+}
