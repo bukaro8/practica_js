@@ -23,7 +23,7 @@ const selectDays= document.querySelector('#selectDays');
   const fragment2=document.createDocumentFragment()
   for(day of days){
   const optionItem=document.createElement('option')
-  optionItem.setAttribute('value',day.toLowerCase())
+  optionItem.setAttribute('value',day.toLowerCase() )
   optionItem.textContent= day
   fragment2.appendChild(optionItem)}
   selectDays.appendChild(fragment2)
